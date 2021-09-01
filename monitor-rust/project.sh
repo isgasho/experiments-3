@@ -2,7 +2,7 @@
 
 cargo new monitor-rust --vcs none
 cd ./monitor-rust
-# or "cargo init  --vcs none"
+# or "cargo init --vcs none"
 
 cargo install cargo-edit
 
