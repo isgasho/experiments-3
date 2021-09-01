@@ -17,13 +17,14 @@ cargo add serde_json
 # "feed.rs"
 touch ./src/feed.rs
 cargo add tokio --features full
+cargo add tungstenite
+cargo add url
 
 # "server.rs"
 touch ./src/server.rs
 cargo add http
 cargo add futures
 cargo add hyper --features full
-cargo add tungstenite
-cargo add url
+
 
 # "main.rs"
